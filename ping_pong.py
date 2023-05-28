@@ -34,11 +34,11 @@ class Player(GameSprite):
 #3
 while game:
     for e in event.get():
-        if e.type = QUIT:
+        if e.type == QUIT:
         game = False 
     if finish != True:
         window.fill(back)
-        racket1.update_1()
+        racket1.update_l()
         racket2.update_r()
         ball.rect.x += speed_x
         ball.rect.y += speed y
